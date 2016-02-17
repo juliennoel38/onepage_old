@@ -1,10 +1,12 @@
 var jsSrc = [
-                'js/src/*.js', // All JS in the libs folder
+                'node_modules/bootstrap/dist/js/bootstrap.min.js', // include bootstrap
+                'js/src/*.js', // All JS in the src folder
                 'js/src/**/*.js' 
             ];
 
 var cssSrc = [
-                'css/src/*.scss', // All JS in the libs folder
+                'node_modules/bootstrap/dist/css/bootstrap.min.css', // include bootstrap
+                'css/src/*.scss',
                 'css/src/**/*.scss' 
             ];
 
